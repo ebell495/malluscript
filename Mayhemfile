@@ -1,9 +1,6 @@
 project: malluscript
 target: malluscript
 
-image: ghcr.io/ebell495/malluscript:latest
-duration: 300
-
 cmds:
     - cmd: ./malluscript @@
       filepath: /test.ms
