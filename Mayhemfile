@@ -1,6 +1,9 @@
 project: malluscript
 target: malluscript
 
+testsuite:
+    - file://./examples/
+
 cmds:
     - cmd: ./malluscript @@
       filepath: /test.ms
